@@ -5,7 +5,7 @@ export default class Name extends React.Component {
         return (
             <div>
                 <h1>rebecca staple.</h1>
-                <p>Full Stack Developer & Web Designer</p>
+                <p>full stack developer & web designer</p>
             </div>
         )
     }

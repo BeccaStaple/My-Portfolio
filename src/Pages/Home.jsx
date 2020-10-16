@@ -1,5 +1,6 @@
 import React from "react"
 import AboutMe from "../PageComponents/AboutMe"
+import AboutMyWork from "../PageComponents/AboutMyWork"
 
 export default class Home extends React.Component {
     render() {
@@ -12,6 +13,7 @@ export default class Home extends React.Component {
 
 {/* picture of me to add */}
                 
+                <AboutMyWork />
 
 
             </div>

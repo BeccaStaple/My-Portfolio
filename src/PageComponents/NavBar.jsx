@@ -10,7 +10,7 @@ export default class NavBar extends React.Component {
                         <p ><Link className="menu-item" to="/">Home</Link></p>
                         <p ><Link className="menu-item" to="/projects">Projects</Link></p>
                         <p ><Link className="menu-item" to="/technology">Technology</Link></p>
-                        <p ><Link className="menu-item" to="/contect">Contact</Link></p>
+                        <p ><Link className="menu-item" to="/contact">Contact</Link></p>
                  
 
 
