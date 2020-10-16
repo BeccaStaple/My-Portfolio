@@ -5,30 +5,21 @@ import Navigate from "./Components/Navigate"
 export default class NavBar extends React.Component {
     render() {
         return (
-            <nav role="navigation">
-
-                <div id="menuToggle">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
-
-                    {/* links to replace a tag later */}
-                    <ul id="menu">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-                        <li><Link to="/technology">Technology</Link></li>
-                        <li><Link to="/contect">Contact</Link></li>
-                    </ul>
+            <div>
+                    
+                        <p ><Link className="menu-item" to="/">Home</Link></p>
+                        <p ><Link className="menu-item" to="/projects">Projects</Link></p>
+                        <p ><Link className="menu-item" to="/technology">Technology</Link></p>
+                        <p ><Link className="menu-item" to="/contect">Contact</Link></p>
+                 
 
 
 
-                </div>
+               
                 <div>
                     <Navigate />
                 </div>
-            </nav>
+            </div>
 
         );
     }

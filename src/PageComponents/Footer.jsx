@@ -7,6 +7,9 @@ export default class Footer extends React.Component {
             <div className="footer">
                 <hr id="footer-line"/>
                 <Socials/>
+                <p className="full-disclosure">
+                    (Full disclosure: I am neither Japanese or French - just apologetically English)
+                </p>
             </div>
         )
     }
