@@ -1,12 +1,13 @@
 import React from "react"
 
 export default class OtherlIst extends React.Component {
-   
+
 
     render() {
         return (
             <div>
                 <ul>
+                    <li>Wordpress</li>
                     <li>Node</li>
                     <li>Maven</li>
                     <li>Mocha</li>

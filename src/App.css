@@ -23,11 +23,6 @@ body {
   height: 100%;
 }
 
-h1 {
-  margin: 10% 0;
-}
-
-
 .name-header {
   margin: 5%;
   font-family: 'Courier Prime', monospace;
@@ -38,22 +33,29 @@ h1 {
   padding: 2px;
   margin: 5px 0 5px 0;
   color: #0e9aa7;
+  letter-spacing: 1px;
+  transition: letter-spacing 0.5s;
+  transition: background-color 0.5s;
+  background-color: white;
 }
 
 .menu-item:hover {
   text-decoration: none;
   letter-spacing: 3px;
-  background-color: #fcf876;
+  background-color: #a8dda8;
   border-radius: 2px;
   padding: 5px;
   color: #0e9aa7;
+  
 }
 
 .intro-p {
   width: 60%;
 }
 
-
+.about-my-work {
+  width: 60%;
+}
 
 .project-section {
   display: flex;
