@@ -5,11 +5,16 @@ export default class AboutMe extends React.Component {
     render() {
         return (
             <div>
-                <p>
-                    Once leaving my career as a dancer behind me, I embarked on a career in technology. I started with online courses and then 
-                    joined a bootcamp. It's not been easy, but luckily, the grit and determination that I built for myself
-                    as a dancer have paid off. 
+                <p className="intro-p">
+                    I turned around a said "Sayonara" to my dance career, 
+                    whilst simultaniously console.log[ging]("Bonjour le Monde!") to an exciting career in tech.
                 </p>
+                <p className="full-disclosure">
+                    (Full disclosure: I am neither Japanese or French - just apologetically English)
+                </p>
+
+
+
             </div>
         )
     }

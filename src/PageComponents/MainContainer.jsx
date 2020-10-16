@@ -1,10 +1,7 @@
 import React from "react"
-import NavBar from "./NavBar"
-import Header from "./Header"
+
 import AboutMe from "./AboutMe"
-import Tech from "./Tech"
-import Socials from "./Components/Socials"
-import ProjectSection from "./Components/ProjectSection"
+import Footer from "./Footer"
 
 
 export default class MainContainer extends React.Component {
@@ -12,27 +9,13 @@ export default class MainContainer extends React.Component {
     render() {
         return (
             <div className="main-container">
-                <NavBar />
-                <Header />
 
-                <div className="mid-section">
-                    <div className="left-side">
-                        <AboutMe />
-                        <Tech />
-                    </div>
 
-                    <div className="right-side">
-                        
-                        
-                    </div>
-                </div>
+                <AboutMe />
 
-                <ProjectSection />
+                <Footer />
 
-            <div className="footer">
-            <Socials />
-            </div>
-                
+
             </div>
         )
     }

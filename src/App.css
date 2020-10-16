@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 /*font
+font-family: 'Source Serif Pro', serif;
+font-family: 'Courier Prime', monospace;
 font-family: 'Source Serif Pro', serif;
 
 */
 
 .App {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 5px;
+  height: 100%;
 }
 
 body {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .main-container {
   background-color: white;
-  min-width: 94%;
-  min-height: 94%;
+  min-width: 60%;
+  min-height: 800px;
   border-radius: 2px;
-  margin: 3%;
+  margin: 0 15%;
   overflow: hidden;
   font-family: 'Source Serif Pro', serif;
   text-align: center;
+}
+
+.name-header {
+  margin: 5%;
+  font-family: 'Courier Prime', monospace;
 }
 
 #menuToggle {
@@ -117,6 +127,7 @@ body {
 #menu {
   position: absolute;
   width: 300px;
+  min-height: 900px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -140,6 +151,9 @@ body {
   transform: none;
 }
 
+
+
+
 .tech-section li {
   appearance: none;
   padding: 2px;
@@ -149,20 +163,13 @@ body {
   border-radius: 5px;
 }
 
-.mid-section {
-  display: flex;
+.intro-p {
+  width: 60%;
+  margin: 2% 20%;
 }
 
-.left-side {
-  width: 50%;
-  padding: 50px;
-}
-
-.right-side {
-  width: 50%;
-  text-align: center;
-  justify-content: center;
-  display: center;
+.full-disclosure {
+  font-size: small;
 }
 
 .project-section {
@@ -172,6 +179,11 @@ body {
   margin: 5px;
 }
 
+#footer-line {
+  height: 2px;
+  color: #333333;
+  width: 94%;
+}
 
 .socials {
   display: flex;
@@ -179,6 +191,13 @@ body {
   margin: 5px;
   padding: 5px;
   justify-content: center;
+}
+
+
+.project-card {
+  padding: 5px;
+  margin: 5px;
+
 }
 
 /* h1 {
