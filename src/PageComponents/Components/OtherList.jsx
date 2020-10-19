@@ -8,6 +8,7 @@ export default class OtherlIst extends React.Component {
             <div>
                 <ul>
                     <li>Wordpress</li>
+                    <li>Wix</li>
                     <li>Node</li>
                     <li>Maven</li>
                     <li>Mocha</li>

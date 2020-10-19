@@ -42,7 +42,7 @@ body {
 .menu-item:hover {
   text-decoration: none;
   letter-spacing: 3px;
-  background-color: #a8dda8;
+  background-color: #fcf876;
   border-radius: 2px;
   padding: 5px;
   color: #0e9aa7;
@@ -91,10 +91,25 @@ body {
   padding: 5px;
   margin: 5px;
   font-family: 'Courier Prime', monospace;
-  color: #0e9aa7;
+  color: #ed6663;
 }
 
 .social-links:hover {
+  text-decoration: none;
+  letter-spacing: 3px;
+  background-color: #fcf876;
+  border-radius: 2px;
+  padding: 5px;
+  color: #0e9aa7;
+}
+
+.contact-links {
+  margin: 3px 0 10px 0;
+  font-family: 'Courier Prime', monospace;
+  color: #0e9aa7;
+}
+
+.contact-links:hover {
   text-decoration: none;
   letter-spacing: 3px;
   background-color: #fcf876;
@@ -110,3 +125,58 @@ body {
 
 }
 
+.proj-text {
+  width: 60%;
+}
+
+.proj-disclosure {
+  width: 60%;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.cover-img {
+  border-radius: 5px;
+  width: 60%;
+  box-shadow: 0px 5px  15px rgba(0, 0, 0, 0.4);
+  margin: 30px 0 10px 0;
+}
+
+.cover-img:hover {
+  width: 62%;
+}
+
+.view-web-btn {
+  appearance: none;
+  outline: 2px #fafafa;
+  border: 2px #fafafa;
+  box-shadow: 0px 5px  15px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0 20px 0;
+  background-color: #fafafa;
+  color: #0e9aa7;
+
+}
+
+.view-web-btn:hover {
+  box-shadow: none;
+}
+
+.projects {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.email {
+  color: #ed6663;
+}
+
+.social-sec {
+  display: flex;
+}
+
+.soc {
+  margin: 20px 40px 40px 0;
+  padding: 5px;
+}

@@ -7,10 +7,10 @@ export default class NavBar extends React.Component {
         return (
             <div>
                     
-                        <p ><Link className="menu-item" to="/">Home</Link></p>
-                        <p ><Link className="menu-item" to="/projects">Projects</Link></p>
-                        <p ><Link className="menu-item" to="/technology">Technology</Link></p>
-                        <p ><Link className="menu-item" to="/contact">Contact</Link></p>
+                        <p ><Link className="menu-item" to="/">home</Link></p>
+                        <p ><Link className="menu-item" to="/projects">projects</Link></p>
+                        <p ><Link className="menu-item" to="/technology">technology</Link></p>
+                        <p ><Link className="menu-item" to="/contact">contact</Link></p>
                  
 
 
