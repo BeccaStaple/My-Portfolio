@@ -10,7 +10,7 @@ export default class Navigate extends React.Component {
         return(
             <div>
                 <Switch>
-                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/" component={Home} />
                     <Route exact path="/projects" component={ProjectPage}/>
                     <Route exact path="/technology" component={TechPage}/>
                     <Route exact path="/contact" component={ContactPage}/>

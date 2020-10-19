@@ -5,6 +5,10 @@ import Ignite from "../Projects/iGnite/Ignite"
 import BestFlowers from "../Projects/BestFlowers/BestFlowers"
 
 export default class ProjectPage extends React.Component {
+    componentDidMount() {
+        document.title = "rebecca staple | projects";
+    }
+    
     render() {
         return (
             <div>

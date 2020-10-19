@@ -5,6 +5,10 @@ import TestingList from "../PageComponents/Components/TestingList"
 import OtherList from "../PageComponents/Components/OtherList"
 
 export default class TechPage extends React.Component {
+    componentDidMount() {
+        document.title = "rebecca staple | technology";
+    }
+    
     render() {
         return (
             <div>

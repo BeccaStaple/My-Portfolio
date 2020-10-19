@@ -1,6 +1,11 @@
 import React from "react"
 
 export default class ContactPage extends React.Component {
+    
+    componentDidMount() {
+        document.title = "rebecca staple | contact";
+    }
+    
     render() {
         return (
 

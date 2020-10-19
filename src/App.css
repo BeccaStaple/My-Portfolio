@@ -180,3 +180,19 @@ body {
   margin: 20px 40px 40px 0;
   padding: 5px;
 }
+
+#console {
+  color: #41aea9;
+}
+
+#log {
+  color: #cdb30c;
+}
+
+#ging {
+  color: green;
+}
+
+#hello {
+  color: #bb3b0e;
+}

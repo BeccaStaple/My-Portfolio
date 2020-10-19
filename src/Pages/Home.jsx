@@ -3,6 +3,11 @@ import AboutMe from "../PageComponents/AboutMe"
 import AboutMyWork from "../PageComponents/AboutMyWork"
 
 export default class Home extends React.Component {
+    
+    componentDidMount() {
+        document.title = "rebecca staple | home";
+    }
+    
     render() {
         return(
             <div className="middle-sec-div">
