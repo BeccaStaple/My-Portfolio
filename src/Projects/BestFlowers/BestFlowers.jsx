@@ -20,7 +20,7 @@ export default class BestFlowers extends React.Component {
                 src={coverImg} 
                 alt="best flowers home page"/>
                 <br />
-                <a target="_blank" href="https://rebeccajstaple734118865.wordpress.com/">
+                <a rel="external" href="https://rebeccajstaple734118865.wordpress.com/">
                 <button className="view-web-btn" type="button" >View Website</button>
                 </a>
                 <Modal

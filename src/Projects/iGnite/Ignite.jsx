@@ -22,7 +22,7 @@ export default class Ignite extends React.Component {
                     src={coverImg}
                     alt="ignite website home page" />
                 <br />
-                <a target="_blank" href="https://petitebeccas.wixsite.com/ignite">
+                <a rel="external" href="https://petitebeccas.wixsite.com/ignite">
                     <button className="view-web-btn" type="button" >view website</button>
                 </a>
 
