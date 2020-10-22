@@ -11,14 +11,14 @@ export default class TechPage extends React.Component {
     
     render() {
         return (
-            <div>
-                <h2>Languages:</h2>
+            <div className="tech-section">
+                <h3>Languages:</h3>
                 <LanguageList />
-                <h2>Frameworks / Libraries:</h2>
+                <h3>Frameworks / Libraries:</h3>
                 <FrameworkList />
-                <h2>Testing Frameworks:</h2>
+                <h3>Testing Frameworks:</h3>
                 <TestingList />
-                <h2>Other:</h2>
+                <h3>Other:</h3>
                 <OtherList />
             </div>
         )

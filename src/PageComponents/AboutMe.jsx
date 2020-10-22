@@ -7,8 +7,9 @@ export default class AboutMe extends React.Component {
         return (
             <div>
                 <p className="intro-p">
-                    I turned around a said "Sayonara" to my dance career, 
-                    whilst simultaniously <span id="console">console</span>.<span id="log">log</span><span id="ging">/*ging*/</span>(<span id="hello">"Bonjour le Monde!"</span>); to the wonderful world of tech.
+                    I turned around and said "Sayonara" to my dance career, 
+                    whilst simultaniously <span id="console">console</span>.<span id="log">log</span><span id="ging">/*ging*/</span>(<span id="hello">"Bonjour le Monde!"</span>); 
+                    to the wonderful world of tech.
                 </p>
                 
 
