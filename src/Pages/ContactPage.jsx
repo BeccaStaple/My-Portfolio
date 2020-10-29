@@ -1,5 +1,6 @@
 import React from "react"
 
+
 export default class ContactPage extends React.Component {
     
     componentDidMount() {
@@ -26,6 +27,7 @@ export default class ContactPage extends React.Component {
                 <a className="soc" href="https://twitter.com/BeccaStaple">twitter.</a>
 
                 </div>
+                
                 
                 
                 
