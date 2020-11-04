@@ -1,3 +1,11 @@
+## About this project
+
+This is a website I built for myself to showcase the work that I have done.
+
+Website can be seen here: https://rebecca-staple.netlify.app/
+
+Hosted on Netlify
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
